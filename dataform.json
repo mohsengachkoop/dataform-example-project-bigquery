@@ -1,17 +1,8 @@
 {
-<<<<<<< HEAD
   "defaultSchema": "dataform",
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "ingka-ff-somdata-dev",
-  "defaultLocation": "EU"
+  "defaultLocation": "US"
 }
-    
-=======
-    "defaultSchema": "dataform",
-    "assertionSchema": "dataform_assertions",
-    "warehouse": "bigquery",
-    "defaultDatabase": "dataform-demos",
-    "defaultLocation": "us"
-}
->>>>>>> refs/heads/master
+

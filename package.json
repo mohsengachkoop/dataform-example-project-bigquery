@@ -1,12 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "quickstart-repository",
+    "name": "quickstart-repository",
   "dependencies": {
     "@dataform/core": "2.4.2"
   }
-=======
-    "dependencies": {
-        "@dataform/core": "2.3.0"
-    }
->>>>>>> refs/heads/master
 }
