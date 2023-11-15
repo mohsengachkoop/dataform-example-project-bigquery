@@ -1,0 +1,8 @@
+config { type: "assertion" }
+
+SELECT
+  *
+FROM
+  ${ref("user_stats")}
+WHERE
+ questions_and_answer_count <= 0
