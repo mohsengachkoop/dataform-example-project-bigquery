@@ -1,8 +1,10 @@
 config { type: "assertion" }
-
+-- here we should write a query as if we want to find the errors.
+-- if the row is zero then it pass else it else it raise an erorr.
+-- it will create a view in assertion_schema (dataset) with the name same as file name
 SELECT
   *
 FROM
   ${ref("user_stats")}
 WHERE
- questions_and_answer_count <= 0
+ questions_and_answer_count < 0
